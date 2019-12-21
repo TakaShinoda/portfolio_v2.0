@@ -2,25 +2,70 @@ import React, { Component } from 'react';
 import Scrollspy from 'react-scrollspy';
 import Scroll from './Scroll';
 
-import avatar from '../assets/images/avatar.png';
+import avatar from '../assets/images/profile.jpg';
 import config from '../../config';
 
 export class Sidebar extends Component {
   constructor(props) {
     super(props);
+
     this.state = {
       tabs: [
         { content: 'About', href: 'about' },
         { content: 'Experience', href: 'experience' },
-        { content: 'Education', href: 'education' },
         { content: 'Skills', href: 'skills' },
-        { content: 'Interests', href: 'interests' },
-        { content: 'Awards', href: 'awards' },
+        { content: 'Works', href: 'works' },
+        { content: 'Contact', href: 'contact' },
       ],
+      collapsed: true
     };
+
+    this.toggleNavbar = this.toggleNavbar.bind(this);
+    this.trackClick = this.trackClick.bind(this);
+    // this.gtag = window.gtag;
+      
   }
 
+  trackClick(e) {
+    console.log('trackClick', window.gtag);
+
+    const gtag = window && window.gtag;
+
+    if (gtag) {
+      console.log('tracking available');
+      gtag('event', 'sidebar-nav', {target: e.currentTarget.innerText});
+    } else{
+      console.log('no tracking available');
+    }
+    // gtag('event', 'share');
+    // ReactGA.pageview('Sidebar-nav');
+    // trackCustomEvent({
+    //   // string - required - The object that was interacted with (e.g.video)
+    //   category: "Special Button",
+    //   // string - required - Type of interaction (e.g. 'play')
+    //   action: "Click",
+    //   // string - optional - Useful for categorizing events (e.g. 'Spring Campaign')
+    //   label: "Gatsby Plugin Example Campaign",
+    //   // number - optional - Numeric value associated with the event. (e.g. A product ID)
+    //   value: 43
+    // })
+  }
+
+  toggleNavbar() {
+    this.setState({
+      collapsed: !this.state.collapsed,
+      tabs: this.state.tabs
+    });
+
+    console.log('state: ', this.state);
+  }
+  
   render() {
+
+    const collapsed = this.state.collapsed;
+    const classOne = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
+    const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
+
     const { tabs } = this.state;
     return (
       <nav
@@ -40,17 +85,18 @@ export class Sidebar extends Component {
           </span>
         </a>
         <button
-          className="navbar-toggler"
+          className={`${classTwo}`} 
           type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          onClick={this.toggleNavbar}
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+        <div className={`${classOne}`} id="navbarSupportedContent">
           <Scrollspy
             items={tabs.map(s => s.href)}
             currentClassName="active"
@@ -60,7 +106,7 @@ export class Sidebar extends Component {
             {tabs.map((tab, i) => {
               const { href, content } = tab;
               return (
-                <li className="nav-item" key={href}>
+                <li className="nav-item" key={href}  onClick={this.trackClick}>
                   <Scroll type="id" element={href}>
                     <a className="nav-link" href={`#${href}`}>
                       {content}
