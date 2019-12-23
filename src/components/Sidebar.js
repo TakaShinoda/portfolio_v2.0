@@ -107,7 +107,7 @@ export class Sidebar extends Component {
               const { href, content } = tab;
               return (
                 <li className="nav-item" key={href}  onClick={this.trackClick}>
-                  <Scroll type="id" element={href}>
+                  <Scroll type="id" element={href} >
                     <a className="nav-link" href={`#${href}`}>
                       {content}
                     </a>
