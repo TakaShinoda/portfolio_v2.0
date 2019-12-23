@@ -22,6 +22,7 @@ export class Sidebar extends Component {
 
     this.toggleNavbar = this.toggleNavbar.bind(this);
     this.trackClick = this.trackClick.bind(this);
+    this.closetab = this.closetab.bind(this);
     // this.gtag = window.gtag;
       
   }
@@ -58,6 +59,12 @@ export class Sidebar extends Component {
     });
 
     console.log('state: ', this.state);
+  }
+
+  closetab(){
+    this.setState({
+      collapsed: true
+    })
   }
   
   render() {
@@ -107,9 +114,9 @@ export class Sidebar extends Component {
               const { href, content } = tab;
               return (
                 <li className="nav-item" key={href}  onClick={this.trackClick}>
-                  <Scroll type="id" element={href} >
-                    <a className="nav-link" href={`#${href}`}>
-                      {content}
+                  <Scroll type="id" element={href}>
+                    <a className="nav-link" href={`#${href}` }>
+                      <div onClick={this.closetab}>{content}</div>
                     </a>
                   </Scroll>
                 </li>
