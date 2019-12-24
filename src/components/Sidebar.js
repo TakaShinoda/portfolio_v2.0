@@ -116,7 +116,9 @@ export class Sidebar extends Component {
                 <li className="nav-item" key={href}  onClick={this.trackClick}>
                   <Scroll type="id" element={href}>
                     <a className="nav-link" href={`#${href}` }>
-                      <div onClick={this.closetab}>{content}</div>
+                      <span onClick={this.closetab} role="button" tabIndex="0" >
+                        {content}
+                      </span>
                     </a>
                   </Scroll>
                 </li>
