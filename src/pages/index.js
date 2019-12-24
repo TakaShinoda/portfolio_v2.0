@@ -53,7 +53,6 @@ const IndexPage = () => (
               <h3 className="mb-0">Master</h3>
               <div className="subheading mb-3">University of Miyazaki</div>
               <p>
-              Master of Information System Engineering, Faculty of Engineering, University of Miyazaki.<br />
               Study interest is entertainment computing and computer graphics.
               </p>
             </div>
