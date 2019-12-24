@@ -113,7 +113,7 @@ export class Sidebar extends Component {
             {tabs.map((tab, i) => {
               const { href, content } = tab;
               return (
-                <li className="nav-item" key={href}  onClick={this.trackClick}>
+                <li className="nav-item" key={href}  onClick={this.trackClick}　onKeyDown={this.trackClick}>
                   <Scroll type="id" element={href}>
                     <a className="nav-link" href={`#${href}` }>
                       <span onClick={this.closetab} role="button" tabIndex="0" onKeyDown={this.closetab}>
