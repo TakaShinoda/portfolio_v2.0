@@ -140,6 +140,22 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">
+                <Link to="./information">InformationApp</Link>
+              </h3>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">
+                <Link to="./portfolio2">Portfolio v2.0</Link>
+              </h3>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">
                 <Link to="./whiteboard">Whiteboard</Link>
               </h3>
             </div>
@@ -149,6 +165,30 @@ const IndexPage = () => (
             <div className="resume-content">
               <h3 className="mb-0">
                 <Link to="./tours">Miyazaki Prefecture Tourist Review Website</Link>
+              </h3>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">
+                <Link to="./tinderui">UI like matching app</Link>
+              </h3>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">
+                <Link to="./message">messageApp</Link>
+              </h3>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">
+                <Link to="./influence">Influence_Twitter</Link>
               </h3>
             </div>
           </div>

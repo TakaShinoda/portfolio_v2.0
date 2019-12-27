@@ -14,7 +14,7 @@ import Img from 'gatsby-image';
         id="about"
       >
           <div className="w-100">
-              <h2 className="mb-5">Portfolio v1.0</h2>
+              <h2 className="mb-5">MessageApp</h2>
               <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                   <div className="resume-content">
                       <div>
@@ -26,9 +26,9 @@ import Img from 'gatsby-image';
                         <li>開発人数</li>
                         <li>役割</li>
                         <li>概要</li>
-                        <li>開発言語: HTML5, CSS3, JavaScript</li>
-                        <li>URL: <a href="https://TakaShinoda.github.io/portfolio/" rel="noopener noreferrer" target="_blank">https://TakaShinoda.github.io/portfolio/</a></li>
-                        <li>GitHub: <a href="https://github.com/TakaShinoda/portfolio" rel="noopener noreferrer" target="_blank">https://github.com/TakaShinoda/portfolio</a></li>      
+                        <li>開発言語: React Native</li>
+                        <li>URL</li>
+                        <li>GitHub: <a href="https://github.com/TakaShinoda/MessageApp" rel="noopener noreferrer" target="_blank">https://github.com/TakaShinoda/MessageApp</a></li>      
                       </ul>
                     </div>
                 </div>
@@ -49,7 +49,7 @@ export default IndexPage;
 
 const query = graphql`
     query {
-        file(relativePath: {eq: "portfolio1.png"}) {
+        file(relativePath: {eq: "MessageApp.png"}) {
             childImageSharp{
                 fixed(width: 450) {
                     ...GatsbyImageSharpFixed

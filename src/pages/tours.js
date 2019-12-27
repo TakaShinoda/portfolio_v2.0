@@ -21,11 +21,15 @@ import Img from 'gatsby-image';
                           <Img fixed={data.file.childImageSharp.fixed} />
                         </div>
                       <ul>
-                          <li>URL: <a href="https://miyazaki-tours.firebaseapp.com/" rel="noopener noreferrer" target="_blank">https://miyazaki-tours.firebaseapp.com</a></li>
-                          <li>GitHub: <a href="https://github.com/TakaShinoda/miyazaki-tours" rel="noopener noreferrer" target="_blank">https://github.com/TakaShinoda/miyazaki-tours</a></li>      
-                          <li>Vue.js, Firebase</li>
-                          <li>It is a word-of-mouth site of a tourist spot in Miyazaki.</li>
-                        </ul>
+                        <li>タイトル</li>
+                        <li>開発期間</li>
+                        <li>開発人数</li>
+                        <li>役割</li>
+                        <li>概要</li>
+                        <li>開発言語: Vue.js, Firebase</li>
+                        <li>URL: <a href="https://miyazaki-tours.firebaseapp.com/" rel="noopener noreferrer" target="_blank">https://miyazaki-tours.firebaseapp.com</a></li>
+                        <li>GitHub: <a href="https://github.com/TakaShinoda/miyazaki-tours" rel="noopener noreferrer" target="_blank">https://github.com/TakaShinoda/miyazaki-tours</a></li>      
+                      </ul>
                     </div>
                 </div>
                 <Link to="./">

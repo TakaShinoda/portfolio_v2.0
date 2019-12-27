@@ -21,11 +21,15 @@ import Img from 'gatsby-image';
                           <Img fixed={data.file.childImageSharp.fixed} />
                         </div>
                       <ul>
-                          <li>URL: <a href="https://labapp-75272.firebaseapp.com/" rel="noopener noreferrer" target="_blank">https://labapp-75272.firebaseapp.com/</a></li>
-                          <li>GitHub: <a href="https://github.com/TakaShinoda/Whiteboard" rel="noopener noreferrer" target="_blank">https://github.com/TakaShinoda/Whiteboard</a></li>      
-                          <li>React.js, Redux, Next.js, Firebase</li>
-                          <li>A tool for lab members to manage appointments and communications.</li>
-                        </ul>
+                        <li>タイトル</li>
+                        <li>開発期間</li>
+                        <li>開発人数</li>
+                        <li>役割</li>
+                        <li>概要</li>
+                        <li>開発言語: React.js, Redux, Next.js, Firebase</li>
+                        <li>URL: <a href="https://labapp-75272.firebaseapp.com/" rel="noopener noreferrer" target="_blank">https://labapp-75272.firebaseapp.com/</a></li>
+                        <li>GitHub: <a href="https://github.com/TakaShinoda/Whiteboard" rel="noopener noreferrer" target="_blank">https://github.com/TakaShinoda/Whiteboard</a></li> 
+                      </ul>
                     </div>
                 </div>
                 <Link to="./">
