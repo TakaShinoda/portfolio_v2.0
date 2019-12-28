@@ -21,19 +21,19 @@ import Img from 'gatsby-image';
                           <Img fixed={data.file.childImageSharp.fixed} />
                         </div>
                       <ul>
-                        <li>タイトル</li>
-                        <li>開発期間</li>
-                        <li>開発人数</li>
-                        <li>役割</li>
-                        <li>概要</li>
-                        <li>開発言語: React.js, Redux, Next.js, Firebase</li>
+                        <li>タイトル: 研究室内の連絡事項を管理するwebアプリ</li>
+                        <li>開発期間: 2週間</li>
+                        <li>開発人数: 1人</li>
+                        <li>役割: 企画・開発</li>
+                        <li>概要: 研究室のメンバーが連絡事項を投稿・削除できるwebアプリ</li>
+                        <li>使用技術: React.js, Redux, Next.js, Firebase</li>
                         <li>URL: <a href="https://labapp-75272.firebaseapp.com/" rel="noopener noreferrer" target="_blank">https://labapp-75272.firebaseapp.com/</a></li>
                         <li>GitHub: <a href="https://github.com/TakaShinoda/Whiteboard" rel="noopener noreferrer" target="_blank">https://github.com/TakaShinoda/Whiteboard</a></li>
-                        <li>関連記事: <a href="https://takashinoda.hatenablog.com/entry/2019/12/06/001927" rel="noopener noreferrer" target="_blank">研究室のお知らせ管理をホワイトボードからWebに移行したいのでβ版作ってみた</a></li>      
+                        <li>関連記事: <a href="https://takashinoda.hatenablog.com/entry/2019/12/06/001927" rel="noopener noreferrer" target="_blank">研究室のお知らせ管理をホワイトボードからWebに移行したいので作ってみた</a></li>      
                       </ul>
                     </div>
                 </div>
-                <Link to="./">
+                <Link to="./#works">
                     <p>&lt;&lt; back</p>
                 </Link>
             </div>
