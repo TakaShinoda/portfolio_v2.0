@@ -21,14 +21,15 @@ import Img from 'gatsby-image';
                           <Img fixed={data.file.childImageSharp.fixed} />
                         </div>
                       <ul>
-                        <li>タイトル</li>
-                        <li>開発期間</li>
-                        <li>開発人数</li>
-                        <li>役割</li>
-                        <li>概要</li>
+                        <li>タイトル: 飲み会に県外から来る土地勘がない人向けに様々なお知らせをまとめておくシンプルなSPA+PWA</li>
+                        <li>開発期間: 2日</li>
+                        <li>開発人数: 1人</li>
+                        <li>役割: 企画・プログラミング</li>
+                        <li>概要: お店のサイト, お店へ現在地からのルート, 最寄りホテルのサイト, 最寄り駐車場へ現在地からのルート, シンプルな機能ですが調べるのは面倒なことをワンタップでできるようにしました</li>
                         <li>開発言語: React</li>
                         <li>URL: <a href="https://1229ku.netlify.com/" rel="noopener noreferrer" target="_blank">https://1229ku.netlify.com/</a></li>
-                        <li>GitHub: <a href="https://github.com/TakaShinoda/kumamoto_PWA" rel="noopener noreferrer" target="_blank">https://github.com/TakaShinoda/kumamoto_PWA</a></li>      
+                        <li>GitHub: <a href="https://github.com/TakaShinoda/kumamoto_PWA" rel="noopener noreferrer" target="_blank">https://github.com/TakaShinoda/kumamoto_PWA</a></li>
+                        <li>関連リンク: </li>  
                       </ul>
                     </div>
                 </div>
