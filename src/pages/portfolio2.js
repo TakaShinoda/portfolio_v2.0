@@ -28,7 +28,8 @@ import Img from 'gatsby-image';
                         <li>概要</li>
                         <li>開発言語: GatsbyJS</li>
                         <li>URL: <a href="https://taka621.netlify.com/" rel="noopener noreferrer" target="_blank">https://taka621.netlify.com/</a></li>
-                        <li>GitHub: <a href="https://github.com/TakaShinoda/portfolio_v2.0" rel="noopener noreferrer" target="_blank">https://github.com/TakaShinoda/portfolio_v2.0</a></li>      
+                        <li>GitHub: <a href="https://github.com/TakaShinoda/portfolio_v2.0" rel="noopener noreferrer" target="_blank">https://github.com/TakaShinoda/portfolio_v2.0</a></li>
+                        <li>関連記事: <a href="https://takashinoda.hatenablog.com/entry/2019/12/23/000334" rel="noopener noreferrer" target="_blank">GatsbyJSで自分のホームページを作る</a></li>          
                       </ul>
                     </div>
                 </div>
