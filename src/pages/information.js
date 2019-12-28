@@ -21,7 +21,7 @@ import Img from 'gatsby-image';
                           <Img fixed={data.file.childImageSharp.fixed} />
                         </div>
                       <ul>
-                        <li>タイトル: 飲み会に県外から来る土地勘がない人向けに様々なお知らせをまとめておくシンプルなSPA+PWA</li>
+                        <li>タイトル: 飲み会に県外から来る土地勘がない人向けに様々な情報をまとめておくシンプルなSPA+PWA</li>
                         <li>開発期間: 2日</li>
                         <li>開発人数: 1人</li>
                         <li>役割: 企画・プログラミング</li>
@@ -29,7 +29,7 @@ import Img from 'gatsby-image';
                         <li>開発言語: React</li>
                         <li>URL: <a href="https://1229ku.netlify.com/" rel="noopener noreferrer" target="_blank">https://1229ku.netlify.com/</a></li>
                         <li>GitHub: <a href="https://github.com/TakaShinoda/kumamoto_PWA" rel="noopener noreferrer" target="_blank">https://github.com/TakaShinoda/kumamoto_PWA</a></li>
-                        <li>関連リンク: </li>  
+                        <li>関連記事: </li>  
                       </ul>
                     </div>
                 </div>
