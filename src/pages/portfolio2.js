@@ -33,7 +33,7 @@ import Img from 'gatsby-image';
                       </ul>
                     </div>
                 </div>
-                <Link to="./">
+                <Link to="./#works">
                     <p>&lt;&lt; back</p>
                 </Link>
             </div>
