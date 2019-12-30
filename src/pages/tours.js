@@ -21,19 +21,19 @@ import Img from 'gatsby-image';
                           <Img fixed={data.file.childImageSharp.fixed} />
                         </div>
                       <ul>
-                        <li>タイトル</li>
-                        <li>開発期間</li>
-                        <li>開発人数</li>
-                        <li>役割</li>
-                        <li>概要</li>
-                        <li>開発言語: Vue.js, Firebase</li>
+                        <li>タイトル: 宮崎県の観光地口コミサイト</li>
+                        <li>開発期間: 3週間</li>
+                        <li>開発人数: 1人</li>
+                        <li>役割: 企画・プログラミング</li>
+                        <li>概要: 宮崎県の観光地の口コミを投稿するwebサイト。口コミの質を上げるためにクローズド(ログイン必須)にしました。</li>
+                        <li>使用技術: Vue.js, Firebase</li>
                         <li>URL: <a href="https://miyazaki-tours.firebaseapp.com/" rel="noopener noreferrer" target="_blank">https://miyazaki-tours.firebaseapp.com</a></li>
                         <li>GitHub: <a href="https://github.com/TakaShinoda/miyazaki-tours" rel="noopener noreferrer" target="_blank">https://github.com/TakaShinoda/miyazaki-tours</a></li>  
                         <li>関連記事: <a href="https://takashinoda.hatenablog.com/entry/2019/07/21/101754" rel="noopener noreferrer" target="_blank">Vue.js + Firebaseで観光地の口コミサイトを作る -1-</a></li>      
                       </ul>
                     </div>
                 </div>
-                <Link to="./">
+                <Link to="./#works">
                     <p>&lt;&lt; back</p>
                 </Link>
             </div>
