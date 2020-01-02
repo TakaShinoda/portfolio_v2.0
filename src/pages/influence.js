@@ -21,18 +21,18 @@ import Img from 'gatsby-image';
                           <Img fixed={data.file.childImageSharp.fixed} />
                         </div>
                       <ul>
-                        <li>タイトル</li>
-                        <li>開発期間</li>
-                        <li>開発人数</li>
-                        <li>役割</li>
-                        <li>概要</li>
+                        <li>タイトル: Twitterアカウントの影響力を測定するツール</li>
+                        <li>開発期間: 3ヶ月</li>
+                        <li>開発人数: １人</li>
+                        <li>役割: 企画・プログラミング</li>
+                        <li>概要: PageRankの近似解法を用いてTwitterアカウントの影響力を測定しました。</li>
                         <li>開発言語: PHP</li>
-                        <li>URL</li>
+                        {/*<li>URL</li>*/}
                         <li>GitHub: <a href="https://github.com/TakaShinoda/Influence" rel="noopener noreferrer" target="_blank">https://github.com/TakaShinoda/Influence</a></li>      
                       </ul>
                     </div>
                 </div>
-                <Link to="./">
+                <Link to="./#works">
                     <p>&lt;&lt; back</p>
                 </Link>
             </div>
