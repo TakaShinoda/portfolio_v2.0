@@ -29,7 +29,8 @@ import Img from 'gatsby-image';
                         <li>使用技術: Vue.js, Firebase</li>
                         <li>URL: <a href="https://miyazaki-tours.firebaseapp.com/" rel="noopener noreferrer" target="_blank">https://miyazaki-tours.firebaseapp.com</a></li>
                         <li>GitHub: <a href="https://github.com/TakaShinoda/miyazaki-tours" rel="noopener noreferrer" target="_blank">https://github.com/TakaShinoda/miyazaki-tours</a></li>  
-                        <li>関連記事: <a href="https://takashinoda.hatenablog.com/entry/2019/07/21/101754" rel="noopener noreferrer" target="_blank">Vue.js + Firebaseで観光地の口コミサイトを作る -1-</a></li>      
+                        <li>関連記事: <a href="https://takashinoda.hatenablog.com/entry/2019/07/21/101754" rel="noopener noreferrer" target="_blank">Vue.js + Firebaseで観光地の口コミサイトを作る -1-</a>,
+                        <a href="https://takashinoda.hatenablog.com/entry/2019/08/09/200556 " rel="noopener noreferrer" target="_blank">Vue.js + Firebaseで観光地の口コミサイトを作る -2-</a></li>   
                       </ul>
                     </div>
                 </div>
