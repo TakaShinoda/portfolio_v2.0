@@ -21,18 +21,18 @@ import Img from 'gatsby-image';
                           <Img fixed={data.file.childImageSharp.fixed} />
                         </div>
                       <ul>
-                        <li>タイトル</li>
-                        <li>開発期間</li>
-                        <li>開発人数</li>
-                        <li>役割</li>
-                        <li>概要</li>
-                        <li>開発言語: HTML5, CSS3, JavaScript</li>
+                        <li>タイトル: ポートフォリオサイト</li>
+                        <li>開発期間: 10日</li>
+                        <li>開発人数: 1人</li>
+                        <li>役割: 企画・プログラミング</li>
+                        <li>概要: ポートフォリオサイトv1です。</li>
+                        <li>使用技術: HTML5, CSS3, JavaScript</li>
                         <li>URL: <a href="https://TakaShinoda.github.io/portfolio/" rel="noopener noreferrer" target="_blank">https://TakaShinoda.github.io/portfolio/</a></li>
                         <li>GitHub: <a href="https://github.com/TakaShinoda/portfolio" rel="noopener noreferrer" target="_blank">https://github.com/TakaShinoda/portfolio</a></li>      
                       </ul>
                     </div>
                 </div>
-                <Link to="./">
+                <Link to="./#works">
                     <p>&lt;&lt; back</p>
                 </Link>
             </div>
