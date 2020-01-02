@@ -29,7 +29,7 @@ import Img from 'gatsby-image';
                         <li>開発言語: React.js</li>
                         <li>URL: <a href="https://1229ku.netlify.com/" rel="noopener noreferrer" target="_blank">https://1229ku.netlify.com/</a></li>
                         <li>GitHub: <a href="https://github.com/TakaShinoda/kumamoto_PWA" rel="noopener noreferrer" target="_blank">https://github.com/TakaShinoda/kumamoto_PWA</a></li>
-                       {/* <li>関連記事: <a href="" rel="noopener noreferrer" target="_blank">ReactでSPA+PWAを作ってみた</a></li>*/}
+                        <li>関連記事: <a href="https://takashinoda.hatenablog.com/entry/2020/01/03/000503" rel="noopener noreferrer" target="_blank">ReactでSPA+PWAを作ってみた</a></li>
                       </ul>
                     </div>
                 </div>
