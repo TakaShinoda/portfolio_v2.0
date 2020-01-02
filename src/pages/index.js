@@ -61,6 +61,19 @@ const IndexPage = () => (
             </div>
           </div>
 
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Bachelor</h3>
+              <div className="subheading mb-3">University of Miyazaki</div>
+              <p>
+              Faculty of Engineering Department of Information Systems Engineering.
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">April 2014 - March 2018</span>
+            </div>
+          </div>
+
         </div>
       </section>
 
