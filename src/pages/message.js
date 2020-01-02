@@ -21,18 +21,18 @@ import Img from 'gatsby-image';
                           <Img fixed={data.file.childImageSharp.fixed} />
                         </div>
                       <ul>
-                        <li>タイトル</li>
-                        <li>開発期間</li>
-                        <li>開発人数</li>
-                        <li>役割</li>
-                        <li>概要</li>
-                        <li>開発言語: React Native</li>
-                        <li>URL</li>
+                        <li>タイトル: 仲間に感謝のメッセージを送るアプリ</li>
+                        <li>開発期間: 1ヶ月</li>
+                        <li>開発人数: 1人</li>
+                        <li>役割: プログラミング</li>
+                        <li>概要: メッセージを送りたいユーザを選択してメッセージを送る。メッセージ内容(送信者、受信者、メッセージ内容、日時)はTLに投稿され、拍手(いいね)をもらう事でポイントが貯まる</li>
+                        <li>使用技術: React Native</li>
+                        {/*<li>URL</li>*/}
                         <li>GitHub: <a href="https://github.com/TakaShinoda/MessageApp" rel="noopener noreferrer" target="_blank">https://github.com/TakaShinoda/MessageApp</a></li>      
                       </ul>
                     </div>
                 </div>
-                <Link to="./">
+                <Link to="./#works">
                     <p>&lt;&lt; back</p>
                 </Link>
             </div>
