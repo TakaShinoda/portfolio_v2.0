@@ -27,6 +27,11 @@ module.exports = {
       name: 'Hatena Blog',
       url: 'https://takashinoda.hatenablog.com/',
     },
+    {
+      icon: 'fab fa-speaker-deck',
+      name: 'Speaker Deck',
+      url: 'https://speakerdeck.com/takashinoda',
+    },
   ],
   //email: 'anubhav.srivastava00@gmail.com',
   //phone: '000-00000',
