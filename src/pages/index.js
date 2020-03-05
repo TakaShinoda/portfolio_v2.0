@@ -92,53 +92,36 @@ const IndexPage = () => (
           <div className="subheading mb-3">
             Programming Languages &amp; Tools
           </div>
-          <ul className="list-inline dev-icons">
-            <li className="list-inline-item">
-              <i className="fab fa-html5"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-css3-alt"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-js"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-react"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-vuejs"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-php"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-github"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-npm"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-node"></i>
-            </li>
-          </ul>
 
-          <div className="subheading mb-3">Interest</div>
+
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-check"></i>
-              SPA development using Vue.js or React.js
+              HTML5, CSS3
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Developing with Firebase
+              JavaScript (React.js, Vue.js)
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              PWA
+              PHP
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Development of services that can solve issues by reducing user's trouble
+              Babel
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Webpack
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              GraphQL
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              GitHub
             </li>
           </ul>
         </div>
