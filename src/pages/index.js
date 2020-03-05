@@ -121,6 +121,10 @@ const IndexPage = () => (
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
+              Firebase
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
               GitHub
             </li>
           </ul>
