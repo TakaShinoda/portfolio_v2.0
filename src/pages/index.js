@@ -13,15 +13,18 @@ const IndexPage = () => (
         id="about"
       >
         <div className="w-100">
-          <h1 className="mb-0">
+          <h2 className="mb-0">
             {config.firstName}
             <span className="text-primary">{config.lastName}</span>
-          </h1>
+          </h2>
           <div className="subheading mb-5">
              {/*{config.school} · {config.phone} ·
             <a href={`mailto:${config.email}`}>{config.email}</a>*/}
           </div>
           <p className="lead mb-5">
+          こんにちは．Shinoda Talahiroです．<br />
+          宮崎大学修士2年です． <br />
+          <br />
           Hello! I am Takahiro Shinoda.<br />
           I am a master student at Department of Computer Science and System Engineering, University of Miyazaki. 
 
