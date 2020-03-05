@@ -232,7 +232,7 @@ const IndexPage = () => (
           <ul className="fa-ul mb-0">
             <li>
               {/*<i className="fa-li fa fa-envelope text-warning"></i>*/}
-              <a href ="mailto:qqgm3rk9k@gmail.com">qqgm3rk9k@gmail.com</a>
+              <a href ="mailto:qqgm3rk9k@gmail.com">メールはこちらから</a>
             </li>
           </ul>
         </div>
